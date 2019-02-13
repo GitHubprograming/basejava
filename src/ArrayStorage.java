@@ -1,10 +1,8 @@
-import com.sun.xml.internal.xsom.impl.scd.Iterators;
-
-import java.sql.SQLOutput;
 import java.util.Arrays;
 
 /**
  * Array based storage for Resumes
+ *
  */
 public class ArrayStorage {
 
