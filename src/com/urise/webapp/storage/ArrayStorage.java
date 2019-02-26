@@ -9,13 +9,13 @@ import java.util.Arrays;
  */
 public class ArrayStorage {
 
-    final static int QUANTITY = 10000;
+    private static final int STORAGE_LIMIT = 10000;
 
-    Resume[] storage;
+    private Resume[] storage;
     private int size;
 
     public ArrayStorage() {
-        storage = new Resume[QUANTITY];
+        storage = new Resume[STORAGE_LIMIT];
         size = 0;
     }
 
